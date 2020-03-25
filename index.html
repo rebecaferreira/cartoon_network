@@ -1,0 +1,985 @@
+<html>
+<head>
+		<title>Grade de programação | Cartoon Network Brasil </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+		<style type="text/css">
+			    html, body {
+			      	margin: 0;
+			      	padding: 0;
+			    }
+
+			    * {
+			      	box-sizing: border-box;
+			    }
+
+			    .slider {
+			        width: 80%;
+			        margin: 100px;
+			        height: 150px;	    
+			    }
+
+			    .slick-slide {
+			      	margin: 0px 30px;
+			    }
+
+			    .slick-slide img {
+			      	width: 60%;
+			      	height: 90%;
+			    }
+
+			    .slick-prev:before,
+			    .slick-next:before {
+			      	color: white;	
+			      	font-size: 35px; 
+			      	content: url("imagens/botao3.png");
+			      	opacity: 1; 
+			    }
+
+			    .slick-next:before {					 
+					color: white;
+					font-size: 35px;
+					content: url("imagens/botao.png");
+					opacity: 1;	
+				}
+
+			    .slick-slide {
+			      	transition: all ease-in-out .3s;
+			      	opacity: 1;
+			    }
+			    
+			    .slick-active {
+			      	opacity: 1;
+			    }
+
+			    .slick-current {
+			      	opacity: 1;
+			    }
+		</style>
+</head>
+<body>
+		<header class="row" style="background-color: #4c4c4c;margin:0; padding:2px 0 0;">
+			<header class="container">
+				<img src="imagens/logo.png" alt="Cartoon Network" style="width:90px;margin-bottom:-10px">
+				<button type="button" class="btn btn-dark btn-sm" style="padding: 8px;">PROCURAR</button>
+			</header>
+		</header>
+		
+		<div class="row" style="margin:0">
+			<div class="container">
+				<div class="row">
+					<div class="programacao">
+						<h2>SEGUNDA 18</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="horarios">
+						<section class="painel"> 
+											<ol style="margin:0">
+													<li class="cor-azul class-a" id="a1" onclick="funcao(), funcao_v()">
+															<a href="#" onclick="funcao_v()">
+																	<h2 onclick="funcao()">00h</h2>
+															</a>
+													</li>
+													 <li class="cor-rosa class-a" id="a2" onclick="funcao2(), funcao_v2()">
+															<a href="#" onclick="funcao_v2()">
+																	<h2 onclick="funcao2()">01h</h2>
+															</a>
+													</li>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao3(), funcao_v3()">
+															<a href="#" onclick="funcao_v3()">
+																	<h2 onclick="funcao3()">02h</h2>
+															</a>
+													</li>
+													<li class="cor-azul class-a" id="a1" onclick="funcao4(), funcao_v4()">
+															<a href="#" onclick="funcao_v4()">
+																	<h2 onclick="funcao4()">03h</h2>
+															</a>
+													</li>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao5(), funcao_v5()">
+															<a href="#" onclick="funcao_v5()">
+																	<h2 onclick="funcao5()">04h</h2>
+															</a>
+													</li>
+											</ol>
+									</section>
+							</div>
+
+					<div class="horarios">
+						<section class="painel">
+
+											<ol>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao6(), funcao_v6()">
+															<a href="#" onclick="funcao_v6()">
+																	<h2 onclick="funcao6()">05h</h2>
+															</a>
+													</li>
+													 <li class="cor-azul class-a" id="a1" onclick="funcao7(), funcao_v7()">
+															<a href="#" onclick="funcao_v7()">
+																	<h2 onclick="funcao7()">06h</h2>
+															</a>
+													</li>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao8(), funcao_v8()">
+															<a href="#" onclick="funcao_v8()">
+																	<h2 onclick="funcao8()">07h</h2>
+															</a>
+													</li>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao9(), funcao_v9()">
+															<a href="#" onclick="funcao_v9()">
+																	<h2 onclick="funcao9()">08h</h2>
+															</a>
+													</li>
+													<li class="cor-azul class-a" id="a1" onclick="funcao10(), funcao_v10()">
+															<a href="#" onclick="funcao_v10()">
+																	<h2 onclick="funcao10()">09h</h2>
+															</a>
+													</li>
+											</ol>
+							</section>
+					</div>
+
+					<div class="horarios">
+						<section class="painel">
+											
+											<ol>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao11(), funcao_v11()">
+															<a href="#" onclick="funcao_v11()">
+																	<h2 onclick="funcao11()">10h</h2>
+															</a>
+													</li>
+													 <li class="cor-amarela class-a" id="a3" onclick="funcao12(), funcao_v12()">
+															<a href="#" onclick="funcao_v12()">
+																	<h2 onclick="funcao12()">11h</h2>
+															</a>
+													</li>
+													<li class="cor-azul class-a" id="a1" onclick="funcao13(), funcao_v13()">
+															<a href="#" onclick="funcao_v13()">
+																	<h2 onclick="funcao13()">12h</h2>
+															</a>
+													</li>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao14(), funcao_v14()">
+															<a href="#" onclick="funcao_v14()">
+																	<h2 onclick="funcao14()">13h</h2>
+															</a>
+													</li>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao15(), funcao_v15()">
+															<a href="#" onclick="funcao_v15()">
+																	<h2 onclick="funcao15()">14h</h2>
+															</a>
+													</li>
+											</ol>
+									</section>
+							</div>
+
+					<div class="horarios">
+						<section class="painel">
+											
+											<ol>
+													<li class="cor-azul class-a" id="a1" onclick="funcao16(), funcao_v16()">
+															<a href="#" onclick="funcao_v16()">
+																	<h2 onclick="funcao16()">15h</h2>
+															</a>
+													</li>
+													 <li class="cor-rosa class-a" id="a2" onclick="funcao17(), funcao_v17()">
+															<a href="#" onclick="funcao_v17()">
+																	<h2 onclick="funcao17()">16h</h2>
+															</a>
+													</li>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao18(), funcao_v18()">
+															<a href="#" onclick="funcao_v18()">
+																	<h2 onclick="funcao18()">17h</h2>
+															</a>
+													</li>
+													<li class="cor-azul class-a" id="a1" onclick="funcao19(), funcao_v19()">
+															<a href="#" onclick="funcao_v19()">
+																	<h2 onclick="funcao19()">18h</h2>
+															</a>
+													</li>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao20(), funcao_v20()">
+															<a href="#" onclick="funcao_v20()">
+																	<h2 onclick="funcao20()">19h</h2>
+															</a>
+													</li>
+											</ol>
+									</section>
+							</div>
+
+					<div class="horarios">
+						<section class="painel">
+												<ol>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao21(), funcao_v21()">
+															<a href="#" onclick="funcao_v21()">
+																	<h2 onclick="funcao21()">20h</h2>
+															</a>
+													</li>
+													 <li class="cor-azul class-a" id="a1" onclick="funcao22(), funcao_v22()">
+															<a href="#" onclick="funcao_v22()">
+																	<h2 onclick="funcao22()">21h</h2>
+															</a>
+													</li>
+													<li class="cor-rosa class-a" id="a2" onclick="funcao23(), funcao_v23()">
+															<a href="#" onclick="funcao_v23()">
+																	<h2 onclick="funcao23()">22h</h2>
+															</a>
+													</li>
+													<li class="cor-amarela class-a" id="a3" onclick="funcao24(), funcao_v24()">
+															<a href="#" onclick="funcao_v24()">
+																	<h2 onclick="funcao24()">23h</h2>
+															</a>
+													</li>
+													<li style="background-color: #ffff;">
+														<a href="#">
+																<input type="image" src="imagens/botao2.png" width="70px" height="110px" style="padding-bottom: 25px; padding-left: 15px; margin: auto;">
+														</a>
+													</li>
+											</ol>
+									</section>
+							</div>
+					</div>		
+
+				<div class="col-sm-4"> 
+					<div class="desenhos"> 
+						<h3 id="texto" style="font-size:60px; font-weight:bold; font-family:itc-lubalin-graph-bold;">23h</h3>
+						<div class="box-branco">
+							<div class="row"> 								
+									<div class="col-sm-2 texto-vertical">  
+									<a id="texto-v"> 23:00</a>
+									</div>
+									<div class="col-sm-5" style="padding: 0;">
+									 <a data-toggle="modal" href="#myModal6" style="color: #000000;"> 
+										<img src="imagens/apenasumshow.png" width="120px" class="mx-auto img-fluid">
+									</div>
+									<div class="col-sm-5" style="padding: 0;"> 
+										Apenas Um Show
+									</a>
+									</div>								
+							</div>
+						</div>
+						<div class="box-branco">
+							<div class="row">  
+									<div class="col-sm-2 texto-vertical">  
+									<a id="texto-v2"> 23:15 </a>
+									</div>
+									<div class="col-sm-5" style="padding: 0;">
+									<a data-toggle="modal" href="#myModal6" style="color: #000000;">  
+										<img src="imagens/apenasumshow.png" width="120px" class="mx-auto img-fluid">
+									</div>
+									<div class="col-sm-5" style="padding: 0;"> 
+										Apenas Um Show
+									</a>
+									</div>
+							</div>
+						</div>
+						<div class="box-branco">
+							<div class="row">  
+									<div class="col-sm-2 texto-vertical">  
+									<a id="texto-v3"> 23:30 </a>
+									</div>
+									<div class="col-sm-5" style="padding: 0;">
+									<a data-toggle="modal" href="#myModal7" style="color: #000000;">  
+										<img src="imagens/clarencio.png" width="100px" class="mx-auto img-fluid">
+									</div>
+									<div class="col-sm-5" style="padding: 0;"> 
+										Clarêncio,<p> O Otimista</p>
+									</a>
+									</div>
+							</div>
+						</div>
+						<div class="box-branco">
+							<div class="row">  
+									<div class="col-sm-2 texto-vertical">  
+									<a id="texto-v4"> 23:45 </a>
+									</div>
+									<div class="col-sm-5" style="padding: 0;">
+									<a data-toggle="modal" href="#myModal7" style="color: #000000;">  
+										<img src="imagens/clarencio.png" width="100px" class="mx-auto img-fluid">
+									</div>
+									<div class="col-sm-5" style="padding: 0;"> 
+										Clarêncio,<p> O Otimista</p>
+									</a>
+									</div>
+							</div>
+						</div>
+						 
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<section class="cartoon">
+			<ul style="background-color: #ec0080; border-bottom: 10px solid #009ade;">
+			<center>
+				<section class="regular slider">
+					    <div>
+					    <a data-toggle="modal" href="#myModal2">
+					     	<img src="imagens/jake.png">
+					 	</a>
+					    </div>
+					    <div>
+					    <a data-toggle="modal" href="#myModal">
+					     	<img src="imagens/gumball.png">
+						</a>
+					    </div>
+					    <div>
+					    <a data-toggle="modal" href="#myModal3">
+					     	<img src="imagens/rigby.png">
+					 	</a>
+					    </div>
+					    <div>
+					    <a data-toggle="modal" href="#myModal4">
+					      	<img src="imagens/steven.png">
+					  	</a>
+					    </div>
+					    <div>
+					    <a data-toggle="modal" href="#myModal5">
+					     	<img src="imagens/irmaodojorel.png">
+					 	</a>
+					    </div>
+				</section>
+			</center>
+			</ul>
+			</section>
+		</div>
+
+		<div class="rodape">
+			<div class="container" style="padding-top: 20px;">
+				<p><img src="imagens/cn.png" width="150px" align="left"></p>
+					<center>
+							<p> Jogos e vídeos grátis do Ben 10, Hora da Aventura com Finn e Jake, Apenas um Show, A Turma da Mônica, O Incrível Mundo de Gumball, Steven universo, Titio Avô, Toonix e muito mais!
+							</p>
+					</center>
+			</div>
+		</div>
+		<footer>
+			<center>
+				GUIA PARA PAIS&nbsp;&nbsp;&nbsp;&nbsp;
+				DICAS DE SEGURANÇA&nbsp;&nbsp;&nbsp;&nbsp;
+				PROGRAMAÇÃO&nbsp;&nbsp;&nbsp;&nbsp;
+				PROGRAMAÇÃO EFETIVAMENTE VEICULADA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<p>PROGRAMAÇÃO EFETIVAMENTE VEICULADA (HD)&nbsp;&nbsp;&nbsp;&nbsp;
+				AJUDA</p>
+			</center>
+		</footer>
+
+		<div id="myModal" class="modalDialog">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/gumball3.png" style="float: left; width: 99%; height: 215px; padding-bottom:  20px; padding-top: 25px;">
+            <li class="mod">
+					<center>
+						Domingo
+						<p>17</p>
+						<p style="color: #ffea00;">18:30</p>
+					</center>				
+			</li>
+			 <li class="mod">
+					<center>
+						Segunda
+						<p>18</p>
+						<p style="color: #ffea00;">19:30</p>
+					</center>				
+			</li>
+			<li class="mod">
+					<center>
+						Terça
+						<p>19</p>
+						<p style="color: #ffea00;">14:30</p>
+					</center>		
+			</li>
+			<li class="mod">
+					<center>
+						Quarta
+						<p>20</p>
+						<p style="color: #ffea00;">22:30</p>
+					</center>				
+			</li>
+			<li class="mod">
+					<center>
+						Quinta
+						<p>21</p>
+						<p style="color: #ffea00;">23:30</p>
+					</center>				
+			</li>
+			<li class="mod">
+					<center>
+						Sexta
+						<p>22</p>
+						<p style="color: #ffea00;">12:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sábado
+						<p>23</p>
+						<p style="color: #ffea00;">13:30</p>
+					</center>	
+			</li>
+
+        </div>
+    </div>
+
+<div id="myModal2" class="modalDialog">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/jake4.png" style="float: left; width: 99%; height: 215px; padding-bottom:  20px; padding-top: 25px;">
+            <li class="mod">
+					<center>
+						Domingo
+						<p>17</p>
+						<p style="color: #ffea00;">16:30</p>
+					</center>
+			</li>
+			 <li class="mod">
+					<center>
+						Segunda
+						<p>18</p>
+						<p style="color: #ffea00;">22:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Terça
+						<p>19</p>
+						<p style="color: #ffea00;">18:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Quarta
+						<p>20</p>
+						<p style="color: #ffea00;">21:30</p>
+					</center>
+			</li>
+			<li class="mod">
+
+					<center>
+						Quinta
+						<p>21</p>
+						<p style="color: #ffea00;">10:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sexta
+						<p>22</p>
+						<p style="color: #ffea00;">12:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sábado
+						<p>23</p>
+						<p style="color: #ffea00;">20:30</p>
+					</center>
+			</li>
+
+        </div>
+    </div>
+
+    <div id="myModal3" class="modalDialog">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/rigby3.png" style="float: left; width: 99%; height: 215px; padding-bottom:  20px; padding-top: 25px;">
+            <li class="mod">
+					<center>
+						Domingo
+						<p>17</p>
+						<p style="color: #ffea00;">09:30</p>
+					</center>
+			</li>
+			 <li class="mod">
+					<center>
+						Segunda
+						<p>18</p>
+						<p style="color: #ffea00;">11:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Terça
+						<p>19</p>
+						<p style="color: #ffea00;">23:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Quarta
+						<p>20</p>
+						<p style="color: #ffea00;">22:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Quinta
+						<p>21</p>
+						<p style="color: #ffea00;">18:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sexta
+						<p>22</p>
+						<p style="color: #ffea00;">17:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sábado
+						<p>23</p>
+						<p style="color: #ffea00;">19:30</p>
+					</center>
+			</li>
+
+        </div>
+    </div>
+
+    <div id="myModal4" class="modalDialog">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/steven3.png" style="float: left; width: 99%; height: 215px; padding-bottom:  20px; padding-top: 25px;">
+            <li class="mod">
+					<center>
+						Domingo
+						<p>17</p>
+						<p style="color: #ffea00;">18:30</p>
+					</center>				
+			</li>
+			 <li class="mod">
+					<center>
+						Segunda
+						<p>18</p>
+						<p style="color: #ffea00;">15:30</p>
+					</center>				
+			</li>
+			<li class="mod">
+					<center>
+						Terça
+						<p>19</p>
+						<p style="color: #ffea00;">20:30</p>
+					</center>				
+			</li>
+			<li class="mod">
+					<center>
+						Quarta
+						<p>20</p>
+						<p style="color: #ffea00;">21:30</p>
+					</center>			
+			</li>
+			<li class="mod">
+					<center>
+						Quinta
+						<p>21</p>
+						<p style="color: #ffea00;">22:30</p>
+					</center>			
+			</li>
+			<li class="mod">
+					<center>
+						Sexta
+						<p>22</p>
+						<p style="color: #ffea00;">23:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sábado
+						<p>23</p>
+						<p style="color: #ffea00;">00:30</p>
+					</center>
+			</li>
+        </div>
+    </div>
+
+    <div id="myModal5" class="modalDialog">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/jorel.png" style="float: left; width: 99%; height: 215px; padding-bottom:  20px; padding-top: 25px;">            
+            <li class="mod">
+					<center>
+						Domingo
+						<p>17</p>
+						<p style="color: #ffea00;">15:30</p>
+					</center>	
+			</li>
+			 <li class="mod">
+					<center>
+						Segunda
+						<p>18</p>
+						<p style="color: #ffea00;">16:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Terça
+						<p>19</p>
+						<p style="color: #ffea00;">17:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Quarta
+						<p>20</p>
+						<p style="color: #ffea00;">18:30</p>
+					</center>
+			</li>
+			<li class="mod">
+
+					<center>
+						Quinta
+						<p>21</p>
+						<p style="color: #ffea00;">19:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sexta
+						<p>22</p>
+						<p style="color: #ffea00;">20:30</p>
+					</center>
+			</li>
+			<li class="mod">
+					<center>
+						Sábado
+						<p>23</p>
+						<p style="color: #ffea00;">21:30</p>
+					</center>
+			</li>
+        </div>
+    </div>
+
+    <div id="myModal6" class="modalDialog2">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/rigby4.png" style="float: left; width: 100%; height: 180px; padding-bottom:  20px; padding-top: 25px;">
+            <p class="mod2">
+            	Segunda, 18
+            </p>
+            <hr style="border-color: #ffea00;">
+            <p class="sinopse">
+            	A série gira em torno da vida de dois amigos, um gaio-azul chamado Mordecai (Quintel) e um guaxinim chamado Rigby (William Salyers), ambos empregados como jardineiros no parque municipal. Suas tentativas de fugir do trabalho e se divertir geralmente os levam a aventuras surreais, extremas, e muitas vezes sobrenaturais.
+            </p>
+            <hr style="border-color: #ffea00;">
+            <a style="color: white; font-size: 16px; color: white; font-family: whitney-book">
+            	<p>
+            		<b>Hora de Inicio/Fim:</b> 23:00 - 23:30
+        		</p>
+        	 	<p>
+            		<b>Ano de Produção:</b> 2009
+        		</p>
+        	 	<p>
+            		<b>País de Origem:</b> Estados Unidos
+        		</p>
+        		<p>
+        			<b>Classificação Indicativa:</b> 10 anos
+        		</p>
+        		<br>
+        		<p>
+        			<b>Gênero:</b> Animação
+        		</p>
+        		<p>
+        			<b>Diretor:</b> J. G. Quintel
+        		</p>
+        	</a>
+					
+        </div>
+    </div>
+
+     <div id="myModal7" class="modalDialog2">
+        <div>
+            <a class="close" title="Fechar" href="#close">X</a>
+            <img src="imagens/clarencio3.png" style="float: left; width: 100%; height: 180px; padding-bottom:  20px; padding-top: 25px;">
+            <p class="mod2">
+            	Segunda, 18
+            </p>
+            <hr style="border-color: #ffea00;">
+            <p class="sinopse">
+            	Clarêncio é um menino espirituoso que vê coisas boas em tudo, e por isso é um pouco bobo. Seus melhores amigos são Jeff, um menino que têm fobias e não consegue aguentar coisas sujas, e Sumo, um menino com um jeito maluco que sempre está ao lado de Clarêncio. As perspectivas únicas da vida de Clarêncio são muito divertidas.
+            </p>
+            <hr style="border-color: #ffea00;">
+            <a style="color: white; font-size: 16px; color: white; font-family: whitney-book">
+            	<p>
+            		<b>Hora de Inicio/Fim:</b> 23:30 - 00:00
+        		</p>
+        	 	<p>
+            		<b>Ano de Produção:</b> 2014
+        		</p>
+        	 	<p>
+            		<b>País de Origem:</b> Estados Unidos
+        		</p>
+        		<p>
+        			<b>Classificação Indicativa:</b> 10 anos
+        		</p>
+        		<br>
+        		<p>
+        			<b>Gênero:</b> Animação
+        		</p>
+        		<p>
+        			<b>Diretor:</b> Nelson Boles
+        		</p>
+        	</a>				
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+	$(".class-a").click(function () {
+        var id = this.id;
+        var cor = $('#' + id).css("background-color");
+        $(".desenhos").css("background-color", cor);
+    })
+
+		function funcao() {
+		    document.getElementById("texto").innerHTML = "00h";
+		}
+		function funcao2() {
+		    document.getElementById("texto").innerHTML = "01h";
+		}
+		function funcao3() {
+		    document.getElementById("texto").innerHTML = "02h";
+		}
+		function funcao4() {
+		    document.getElementById("texto").innerHTML = "03h";
+		}
+		function funcao5() {
+		    document.getElementById("texto").innerHTML = "04h";
+		}
+		function funcao6() {
+		    document.getElementById("texto").innerHTML = "05h";
+		}
+		function funcao7() {
+		    document.getElementById("texto").innerHTML = "06h";
+		}
+		function funcao8() {
+		    document.getElementById("texto").innerHTML = "07h";
+		}
+		function funcao9() {
+		    document.getElementById("texto").innerHTML = "08h";
+		}
+		function funcao10() {
+		    document.getElementById("texto").innerHTML = "09h";
+		}
+		function funcao11() {
+		    document.getElementById("texto").innerHTML = "10h";
+		}
+		function funcao12() {
+		    document.getElementById("texto").innerHTML = "11h";
+		}
+		function funca13() {
+		    document.getElementById("texto").innerHTML = "12h";
+		}
+		function funcao14() {
+		    document.getElementById("texto").innerHTML = "13h";
+		}
+		function funcao15() {
+		    document.getElementById("texto").innerHTML = "14h";
+		}
+		function funcao16() {
+		    document.getElementById("texto").innerHTML = "15h";
+		}
+		function funcao17() {
+		    document.getElementById("texto").innerHTML = "16h";
+		}
+		function funcao18() {
+		    document.getElementById("texto").innerHTML = "17h";
+		}
+		function funcao19() {
+		    document.getElementById("texto").innerHTML = "18h";
+		}
+		function funcao20() {
+		    document.getElementById("texto").innerHTML = "19h";
+		}
+		function funcao21() {
+		    document.getElementById("texto").innerHTML = "20h";
+		}
+		function funcao22() {
+		    document.getElementById("texto").innerHTML = "21h";
+		}
+		function funcao23() {
+		    document.getElementById("texto").innerHTML = "22h";
+		}
+		function funcao24() {
+		    document.getElementById("texto").innerHTML = "23h";
+		}
+		function funcao_v() {
+		    document.getElementById("texto-v").innerHTML = "00:00";
+		    document.getElementById("texto-v2").innerHTML = "00:15";
+		    document.getElementById("texto-v3").innerHTML = "00:30";
+		    document.getElementById("texto-v4").innerHTML = "00:45";
+		}
+		function funcao_v2() {
+		    document.getElementById("texto-v").innerHTML = "01:00";
+		    document.getElementById("texto-v2").innerHTML = "01:15";
+		    document.getElementById("texto-v3").innerHTML = "01:30";
+		    document.getElementById("texto-v4").innerHTML = "01:45";
+		}
+		function funcao_v3() {
+		    document.getElementById("texto-v").innerHTML = "02:00";
+		    document.getElementById("texto-v2").innerHTML = "02:15";
+		    document.getElementById("texto-v3").innerHTML = "02:30";
+		    document.getElementById("texto-v4").innerHTML = "02:45";
+		}
+		function funcao_v4() {
+		    document.getElementById("texto-v").innerHTML = "03:00";
+		    document.getElementById("texto-v2").innerHTML = "03:15";
+		    document.getElementById("texto-v3").innerHTML = "03:30";
+		    document.getElementById("texto-v4").innerHTML = "03:45";
+		}
+		function funcao_v5() {
+		    document.getElementById("texto-v").innerHTML = "04:00";
+		    document.getElementById("texto-v2").innerHTML = "04:15";
+		    document.getElementById("texto-v3").innerHTML = "04:30";
+		    document.getElementById("texto-v4").innerHTML = "04:45";
+		}
+		function funcao_v6() {
+		    document.getElementById("texto-v").innerHTML = "05:00";
+		    document.getElementById("texto-v2").innerHTML = "05:15";
+		    document.getElementById("texto-v3").innerHTML = "05:30";
+		    document.getElementById("texto-v4").innerHTML = "05:45";
+		}
+		function funcao_v7() {
+		    document.getElementById("texto-v").innerHTML = "06:00";
+		    document.getElementById("texto-v2").innerHTML = "06:15";
+		    document.getElementById("texto-v3").innerHTML = "06:30";
+		    document.getElementById("texto-v4").innerHTML = "06:45";
+		}
+		function funcao_v8() {
+		    document.getElementById("texto-v").innerHTML = "07:00";
+		    document.getElementById("texto-v2").innerHTML = "07:15";
+		    document.getElementById("texto-v3").innerHTML = "07:30";
+		    document.getElementById("texto-v4").innerHTML = "07:45";
+		}
+		function funcao_v9() {
+		    document.getElementById("texto-v").innerHTML = "08:00";
+		    document.getElementById("texto-v2").innerHTML = "08:15";
+		    document.getElementById("texto-v3").innerHTML = "08:30";
+		    document.getElementById("texto-v4").innerHTML = "08:45";
+		}
+		function funcao_v10() {
+		    document.getElementById("texto-v").innerHTML = "09:00";
+		    document.getElementById("texto-v2").innerHTML = "09:15";
+		    document.getElementById("texto-v3").innerHTML = "09:30";
+		    document.getElementById("texto-v4").innerHTML = "09:45";
+		}
+		function funcao_v11() {
+		    document.getElementById("texto-v").innerHTML = "10:00";
+		    document.getElementById("texto-v2").innerHTML = "10:15";
+		    document.getElementById("texto-v3").innerHTML = "10:30";
+		    document.getElementById("texto-v4").innerHTML = "10:45";
+		}
+		function funcao_v12() {
+		    document.getElementById("texto-v").innerHTML = "11:00";
+		    document.getElementById("texto-v2").innerHTML = "11:15";
+		    document.getElementById("texto-v3").innerHTML = "11:30";
+		    document.getElementById("texto-v4").innerHTML = "11:45";
+		}
+		function funcao_v13() {
+		    document.getElementById("texto-v").innerHTML = "12:00";
+		    document.getElementById("texto-v2").innerHTML = "12:15";
+		    document.getElementById("texto-v3").innerHTML = "12:30";
+		    document.getElementById("texto-v4").innerHTML = "12:45";
+		}
+		function funcao_v14() {
+		    document.getElementById("texto-v").innerHTML = "13:00";
+		    document.getElementById("texto-v2").innerHTML = "13:15";
+		    document.getElementById("texto-v3").innerHTML = "13:30";
+		    document.getElementById("texto-v4").innerHTML = "13:45";
+		}
+		function funcao_v15() {
+		    document.getElementById("texto-v").innerHTML = "14:00";
+		    document.getElementById("texto-v2").innerHTML = "14:15";
+		    document.getElementById("texto-v3").innerHTML = "14:30";
+		    document.getElementById("texto-v4").innerHTML = "14:45";
+		}
+		function funcao_v16() {
+		    document.getElementById("texto-v").innerHTML = "15:00";
+		    document.getElementById("texto-v2").innerHTML = "15:15";
+		    document.getElementById("texto-v3").innerHTML = "15:30";
+		    document.getElementById("texto-v4").innerHTML = "15:45";
+		}
+		function funcao_v17() {
+		    document.getElementById("texto-v").innerHTML = "16:00";
+		    document.getElementById("texto-v2").innerHTML = "16:15";
+		    document.getElementById("texto-v3").innerHTML = "16:30";
+		    document.getElementById("texto-v4").innerHTML = "16:45";
+		}
+		function funcao_v18() {
+		    document.getElementById("texto-v").innerHTML = "17:00";
+		    document.getElementById("texto-v2").innerHTML = "17:15";
+		    document.getElementById("texto-v3").innerHTML = "17:30";
+		    document.getElementById("texto-v4").innerHTML = "17:45";
+		}
+		function funcao_v19() {
+		    document.getElementById("texto-v").innerHTML = "18:00";
+		    document.getElementById("texto-v2").innerHTML = "18:15";
+		    document.getElementById("texto-v3").innerHTML = "18:30";
+		    document.getElementById("texto-v4").innerHTML = "18:45";
+		}
+		function funcao_v20() {
+		    document.getElementById("texto-v").innerHTML = "19:00";
+		    document.getElementById("texto-v2").innerHTML = "19:15";
+		    document.getElementById("texto-v3").innerHTML = "19:30";
+		    document.getElementById("texto-v4").innerHTML = "19:45";
+		}
+		function funcao_v21() {
+		    document.getElementById("texto-v").innerHTML = "20:00";
+		    document.getElementById("texto-v2").innerHTML = "20:15";
+		    document.getElementById("texto-v3").innerHTML = "20:30";
+		    document.getElementById("texto-v4").innerHTML = "20:45";
+		}
+		function funcao_v22() {
+		    document.getElementById("texto-v").innerHTML = "21:00";
+		    document.getElementById("texto-v2").innerHTML = "21:15";
+		    document.getElementById("texto-v3").innerHTML = "21:30";
+		    document.getElementById("texto-v4").innerHTML = "21:45";
+		}
+		function funcao_v23() {
+		    document.getElementById("texto-v").innerHTML = "22:00";
+		    document.getElementById("texto-v2").innerHTML = "22:15";
+		    document.getElementById("texto-v3").innerHTML = "22:30";
+		    document.getElementById("texto-v4").innerHTML = "22:45";
+		}
+		function funcao_v24() {
+		    document.getElementById("texto-v").innerHTML = "23:00";
+		    document.getElementById("texto-v2").innerHTML = "23:15";
+		    document.getElementById("texto-v3").innerHTML = "23:30";
+		    document.getElementById("texto-v4").innerHTML = "23:45";
+		}
+	
+
+    $(document).on('ready', function() {
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+    });
+
+</script>
+</body>
+</html>
